@@ -9,20 +9,19 @@
 </head>
 <body>
 
-    <div class="container">
-      <h1 class="page-title">
-        Conversor de moedas
-      </h1>
-      <p class="page-subtitle">
-        Descubra os valores em dolar U$
-      </p>
-      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
-    </div>
-      <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-        </a>
+    <h1>Conversor de moedas</h1>
 
- 
+    <p>Conversor de Dollar pra real</p>
+    <p>Coloque o valor em real para converter esse valor em dolar</p>
+
+    <div class="inputs">
+      <label for="quantidadeBR">USD $ - Dólar (EUA)</label>
+      <input type="number" class="quantidadeEUA">
+      <button onclick="converterDollar()">Converter</button>
+      <br>
+      <h2></h2>
+      <h1 class="resultado"></h1>
+    </div>
 
 <script src="script.js"></script>
 </body>
